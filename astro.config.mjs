@@ -6,16 +6,16 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Mines Frontend',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/raphaelpra/cours-frontend',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Cours',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Liste des cours', slug: 'cours/vite' },
 					],
 				},
 				{
