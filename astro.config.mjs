@@ -8,7 +8,7 @@ export default defineConfig({
 		starlight({
 			title: 'Mines Frontend',
 			social: {
-				github: 'https://github.com/raphaelpra/cours-frontend',
+				github: 'https://github.com/raphaelpra/cours-front',
 			},
 			sidebar: [
 				{
