@@ -13,14 +13,11 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Cours',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Liste des cours', slug: 'cours/vite' },
-					],
+					autogenerate: { directory: 'cours' },
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Exercices',
+					autogenerate: { directory: 'exercices' },
 				},
 			],
 		}),

@@ -45,6 +45,8 @@ Avant de commencer, installons **Bun**, un runtime JavaScript rapide qui remplac
 curl -fsSL https://bun.sh/install | bash
 ```
 
+Plus de details pour 
+
 Vérifions l’installation :
 
 ```bash
